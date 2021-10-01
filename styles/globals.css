@@ -1,0 +1,24 @@
+html,
+body {
+  
+  background-color: rgba(11, 6, 26, 1);
+  
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+  padding: 0;
+  margin: 0;
+  font-family:'Segoe UI';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+ 
+
+}

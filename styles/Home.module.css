@@ -1,0 +1,189 @@
+
+.titulo{
+  margin-top: 3px;
+  font-size: 20px;
+  color: rgba(116, 200, 249, 1);
+}
+.headerImage{
+  
+  margin-left: 250px;
+}
+.container {
+  min-height: 200px;
+  width: 800px;
+  margin: 0 auto;
+
+  position: center;
+}
+
+.destaques{
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  
+}
+
+
+.musicList {
+  display: flex;
+  margin-top: 3px;
+  grid-auto-rows: 13rem;
+  
+}
+
+.musicItem img {
+   height: 120px;
+   border-radius: 9px 9px 9px 9px;
+   width: 120px;
+   display: flex;
+   margin: 7px;
+   position: center;
+}
+
+
+
+.teste{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+}
+
+
+.control {
+  display: flex;
+  
+  
+  bottom: 0;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+
+.imp{
+  background-color: rgba(116, 200, 249, 1);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.play{
+  font-size: 4rem !important;
+  border: none;
+  background-color: rgba(116, 200, 249, 1);
+  border-radius: 100%;
+  
+  margin-left: 100px;
+  margin: 0 auto;
+}
+
+.control button{
+  background-color: rgba(116, 200, 249, 1);
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.control span{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: rgba(11, 6, 26, 1);
+}
+
+.control ::-webkit-slider-thumb{
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: rgba(11, 6, 26, 1);
+  height: 0.8rem;
+  width: 0.5rem;
+  border-radius: 50%;
+}
+
+.control input {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 0.2rem;
+  margin: center;
+  background-color: rgba(11, 6, 26, 1);
+  
+}
+
+.timeControl{
+  width: 715px;
+  margin-right: 5px;
+}
+
+
+
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  height: 50vh;
+  display: flex;
+  background-color: rgba(11, 6, 26, 1);
+
+}
+ 
+.headerImage {
+  position: relative;
+}
+
+.headerImage img {
+  height: 50vh;
+  
+}
+
+
+.headerImage button {
+  position: absolute;
+  bottom: 25%;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+
+}
+
+.user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(82, 69, 208, 1);
+}
+
+.userPhoto {
+  display: flex;
+  align-items: center;
+}
+
+.userIcon {
+  font-size: 2rem !important;
+
+}
+
+
+
+.userPhoto img{
+   width: 6rem; 
+   height: 6rem;
+   border-radius: 100%;
+}
+.userDetails {
+  display: flex;
+  justify-content: center;
+  justify-items: center; 
+  flex-direction: column; 
+}
+
+.userDetails h1{
+  text-align: center;
+  color: rgba(11, 6, 26, 1);
+  font-size: medium;
+  font-weight: 400;
+}
+
+
+
+
+
+
